@@ -12,8 +12,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace HomeClaimAPI.Controllers
 {
-    [ExceptionHandler]
-    [LoggingAspect]
+    //[ExceptionHandler]
+    //[LoggingAspect]
     [Route("api/[controller]")]
     public class HomeClaimController : Controller
     {
